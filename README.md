@@ -1,8 +1,22 @@
-# React + Vite
+# Job Lookup Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a job lookup portal designed to help users search for and filter job listings based on various criteria such as company name, experience required, salary, location, and job description.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Job Listings:** View job cards with detailed information including company name, experience required, estimated salary, location, and description.
+- **Infinite Scrolling:** Scroll through job listings seamlessly with infinite scrolling feature.
+- **Search:** Search for jobs by company name to quickly find relevant listings.
+- **Filters:** Filter job listings based on minimum experience, job role, and location (remote/on-site).
+
+## How to Run Locally
+
+To run the project on your local system, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/job-lookup-portal.git
+2. Navigate to the project directory:
+   cd job-lookup-portal
+3. npm install
+4. npm start
